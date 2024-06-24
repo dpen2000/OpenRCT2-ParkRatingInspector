@@ -8,7 +8,7 @@ import * as Log from "./utilities/logger";
 const viewmodel =
 {
 	parkRating: ParkRating.for(ParkInfo),
-	nextUpdate: 0,
+	nextUpdate: 0, 
 
 	currentRatingLabel: fui.observable<string>(""),
 	items: fui.observable<ListViewItem[]>([]),
